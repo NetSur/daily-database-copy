@@ -72,4 +72,4 @@ if [ -d $destination/$year ];                 # If already exist year folder
 fi
 }
 
-daily_copy $1, $2, $3, $4
+daily_copy $1 $2 $3 $4 # Call function daily_copy with the parameters
