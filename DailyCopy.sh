@@ -58,6 +58,7 @@ if [ -d $destination/$year ];                 # If already exist year folder
                  destination=$destination/$year/$month/$day
                  pg_dump -U $odoo_user -f $destination/$ddbb.sql $ddbb
                  7z -p$password a $destination/$ddbb.sql.7z $destination/$ddbb.sql
+                 rm $destination/$ddbb.sql
                else
                  mkdir $destination/$year/$month/$day # If not exist day folder, create it
                  daily_copy $ddbb $destination $odoo_user $password
