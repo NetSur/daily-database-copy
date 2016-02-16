@@ -1,4 +1,4 @@
-# daily_database_copy
+# daily-database-copy
 
 Copy Script Odoo v8 database for Ubuntu 14.04 Trusty Tahr
 
