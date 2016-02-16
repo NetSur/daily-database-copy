@@ -16,7 +16,7 @@ pg_dump:
 
 7z:
 
-    sudo apt-get install p7zip
+    sudo apt-get install p7zip-full
 
 Make it executable with:
 
