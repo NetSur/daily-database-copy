@@ -22,8 +22,6 @@ Make it executable with:
 
     chmod 755 DailyCopy.sh
 
-Copy DailyCopy.sh to your desired path and change the "copy_path" variable with the path of your desired path
-
 Make sure you have created "destination" folder to make the copy and that odoo user has permissions to write in it
 
 Edit crontab of odoo user with "crontab -e" and add the line
